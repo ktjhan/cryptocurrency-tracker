@@ -16,6 +16,7 @@
 		D5A4184C2ABFE2380015A168 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A4184B2ABFE2380015A168 /* TopMoversItemView.swift */; };
 		D5A4184E2ABFE6450015A168 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A4184D2ABFE6450015A168 /* AllCoinsView.swift */; };
 		D5A418502ABFE6550015A168 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A4184F2ABFE6550015A168 /* CoinRowView.swift */; };
+		D5A418522ABFECD50015A168 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A418512ABFECD50015A168 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D5A4184B2ABFE2380015A168 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 		D5A4184D2ABFE6450015A168 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
 		D5A4184F2ABFE6550015A168 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		D5A418512ABFECD50015A168 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		D5A418452ABFE0490015A168 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D5A418512ABFECD50015A168 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				D5A4184A2ABFE2260015A168 /* TopMoversView.swift in Sources */,
 				D5A4184E2ABFE6450015A168 /* AllCoinsView.swift in Sources */,
 				D5A418482ABFE09D0015A168 /* HomeView.swift in Sources */,
+				D5A418522ABFECD50015A168 /* HomeViewModel.swift in Sources */,
 				D5A418332ABFDEFA0015A168 /* ContentView.swift in Sources */,
 				D5A418312ABFDEFA0015A168 /* CryptoCurrencyApp.swift in Sources */,
 				D5A418502ABFE6550015A168 /* CoinRowView.swift in Sources */,
