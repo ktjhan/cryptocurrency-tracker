@@ -15,11 +15,11 @@ struct HomeView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 // top movers view
-                TopMoversView()
+                TopMoversView(viewModel: viewModel)
                 // all coins view
                 Divider()
                 
-                AllCoinsView()
+                AllCoinsView(viewModel: viewModel)
                 
             }
             .navigationTitle("Live Prices")

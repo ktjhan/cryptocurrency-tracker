@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct AllCoinsView: View {
+    @StateObject var viewModel: HomeViewModel
+    
     var body: some View {
         VStack {
             Text("All Coins")
                 .font(.headline)
+                .padding()
             
             HStack {
                 Text("Coin")
@@ -26,17 +29,11 @@ struct AllCoinsView: View {
             
             ScrollView {
                 VStack {
-                    ForEach(0 ..< 50, id: \.self) { _ in
-                        CoinRowView()
+                    ForEach(viewModel.coins) { coin in
+                        CoinRowView(coin: coin)
                     }
                 }
             }
         }
-    }
-}
-
-struct AllCoinsView_Previews: PreviewProvider {
-    static var previews: some View {
-        AllCoinsView()
     }
 }
